@@ -1,0 +1,27 @@
+{
+  "name": "dbeurive/trace",
+  "description": "This project implements a simple tracer.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis BEURIVE",
+      "email": "dbeurive.github@gmail.com"
+    }
+  ],
+  "keywords": ["tracer", "debugger"],
+  "autoload": {
+    "psr-4": {
+      "dbeurive\\Trace\\": "src"
+    }
+  },
+  "archive": {
+    "exclude": ["/tests", "/examples", "/README.md"]
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "2.*",
+    "phpunit/phpunit": "6.*"
+  },
+  "bin": ["bin/trace-dump.php"]
+}
