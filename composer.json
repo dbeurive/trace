@@ -1,5 +1,6 @@
 {
   "name": "dbeurive/trace",
+  "version": "1.0.0",
   "description": "This project implements a simple tracer.",
   "license": "MIT",
   "authors": [
