@@ -18,7 +18,7 @@ A _trace_ is a message.
 
 ## Batch
 
-A _batch_ ()of traces) is a set of traces that must be written using the same indentation.
+A _batch_ (of traces) is a set of traces that must be written using the same indentation.
 Typically, all traces from a given function call are part of the same _batch_.
 All traces included within a _batch_ are written by a single _writer_.
 
